@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="link.css">
+    <title>Explore_Dom</title>
+</head>
+<body style="background-color:aquamarine;">
+    <main>
+        <section>
+          <article class="special">
+              <h3>author-1</h3>
+              <p class="author">author-1</p>
+              <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste esse, voluptas doloremque vitae itaque qui eaque! Voluptas nihil illo laborum cupiditate blanditiis deserunt. Reiciendis obcaecati, consectetur dicta voluptatem animi quaerat?</p>
+          </article>
+          <article>
+              <h3>author-2</h3>
+              <p class="author">author-2</p>
+              <p class="description">Optio aut ipsam pariatur delectus totam praesentium incidunt iusto quos culpa! Accusamus tempora quibusdam labore. Minus iste quasi reiciendis facilis asperiores optio, tenetur veritatis recusandae nisi deleniti blanditiis fuga quas?</p>
+          </article>
+          <article>
+              <h3>author-3</h3>
+              <p class="author">author-3</p>
+              <p class="description">Placeat distinctio officiis sunt pariatur mollitia cupiditate enim molestiae odio, rerum iure ratione error rem accusantium optio perspiciatis soluta minus libero eaque modi eos architecto? Iusto maxime facere laboriosam earum!</p>
+          </article>
+          <article>
+          <h3>Grocery List</h3>
+          <ul id="gift-list">
+              <li>grocery Item-1</li>
+              <li>grocery Item-2</li>
+              <li>grocery Item-3</li>
+              <li>grocery Item-4</li>
+              <li>grocery Item-5</li>
+          </ul>
+        </article>
+        </section>
+    </main>
+    <script>
+       /* document.body.style.backgroundColor='tomato';
+    var authors=document.getElementsByClassName('author');
+    for(var i=0;i<authors.length;i++)
+    {
+        var element=authors[i];
+        console.log(element);
+    }*/
+    //
+    const ul=document.getElementById('gift-list');
+    const li=document.createElement('li');
+    li.innerHTML='Brand';
+    ul.appendchild(li);  
+    </script>
+</body>
+</html>
